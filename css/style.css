@@ -1,0 +1,106 @@
+/* Estilo Global */
+*{
+    margin: 0; /* Zera a Margem*/
+    padding: 0; /* Zera o Espaçamento Interno */
+    box-sizing: border-box; /* Ajusta pra caber dentro do Conteúdo */
+}
+
+/* Conteúdo da Página */
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Lora', serif;
+}
+
+/* Icone do Menu */
+.fa-bars{
+    display: none; /* Esconde o Icone */
+}
+
+/* Menu de Navegação */
+nav{
+    background-color: var(--bg-color-nav);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+}
+
+/* Link do Menu de Navegação */
+nav a{
+    color: var(--color-button-nav);
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+/* Link do Menu ao passar o Mouse */
+nav a:hover{
+    background-color: var(--bg-color-button-hover);
+    color: var(--color-button-hover);
+}
+
+/* Cabeçaçho do Conteúdo */
+header{
+    background-color: var(--bg-color-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+
+/* Título do Cabeçalho */
+header h1{
+    color: var(--color-header);
+}
+
+/* Titulo do Conteúdo Principal */
+main h1{
+    color: var(--color-main);
+}
+
+/* Título */
+h1{
+    font-size: 2rem;
+    margin: 2rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Parágrafo */
+p{
+    color: var(--color-p);
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+/* Conteúdo Principal */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seção do Conteúdo Principal */
+section{
+    margin: 2rem 0;
+    width: 80%;
+}
+
+/* Rodapé */
+footer{
+    background-color: var(--bg-color-footer);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Texto do Rodapé */
+footer p{
+    color: var(--color-footer);
+}

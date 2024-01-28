@@ -1,0 +1,15 @@
+/* Variáveis do CSS */
+:root{
+    --icon-color: #fafafa;
+    --bg-color: #fafafa;
+    --bg-color-header: #00aaaa;
+    --color-header: #fafafa;
+    --bg-color-nav: #121212;
+    --color-button-nav: #f0f0f0;;
+    --bg-color-button-hover: #f0f0f0;;
+    --color-button-hover: #121212;
+    --color-p: #181818;
+    --color-main: #121212;
+    --bg-color-footer: #000;
+    --color-footer: #fafafa;
+}

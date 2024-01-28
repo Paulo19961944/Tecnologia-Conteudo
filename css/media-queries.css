@@ -1,0 +1,57 @@
+/* Estilos para telas menores que 730px*/
+@media screen and (max-width: 730px) {
+    p{
+        font-size: 1.5rem; /*Tamanho da Fonte*/
+    }
+}
+
+/* Estilos para telas menores que 530px*/
+@media screen and (max-width: 530px) {
+    /*Esconde o Menu*/
+    #navbar-content {
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    /* Coloca o Icone a Esquerda */
+    nav{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    /* Ajusta a posição do Icone */
+    .fa-bars {
+        position: absolute;
+        left: 2rem;
+        display: block;
+        color: var(--icon-color);
+    }
+
+    /* Fonte do Título */
+    h1{
+        font-size: 1.4rem;
+    }
+
+    /* Fonte do Parágrafo */
+    p{
+        font-size: 1rem;
+    }
+
+    /* Fonte do Parágrafo do Rodapé*/
+    footer p{
+        font-size: 0.8rem;
+    }
+
+    /* Altura do Header */
+    header{
+        height: 7rem;
+    }
+
+    /* Ajusta o Espaçamento do Botão de Navegação*/
+    nav a{
+        padding: 1rem;
+    }
+}
